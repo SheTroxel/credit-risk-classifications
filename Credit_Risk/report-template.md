@@ -24,4 +24,4 @@ Classification Report:
 ![ModelTwo_Image](model_two_report.JPG)
 
 ## Summary
-
+In summary, model 2 performs with more precision and accuracy than model 2. Using the random sample generator for model 2 provided a balanced data sample and the confusion matrix provided a higher precision of true positive results. This model can more accurately predict healthy and high risk of default loans. 
