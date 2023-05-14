@@ -16,3 +16,7 @@ Created the labels set (y) from the “loan_status” column, and then create th
   * A value of 0 in the "loan_status" column indicates that a loan is healthy. 
   
   * A value of 1 in the "loan_status" column indicates that a loan has a high risk of default.
+
+Once the data was review, I split the data into training and testing datasets by using `train_test_split`.
+
+### Create a Logistic Regression Model with the Original Data
