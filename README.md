@@ -47,3 +47,15 @@ I imported the RandomOverSampler module from imbalanced-Learn, Instatiated the r
 
 ### Evaluated Model 2's performance
 
+ * Calcuated the balance accuracy score of the model. The balance score of this model: 0.994180571103648 or 99%.
+ 
+ * Generated a confusion matrix which resulted in the following array:
+ 
+         `array ([55945,   323],
+         
+         [332, 55954]], dtype=int64)'
+ 
+ * Printed the classification report
+ 
+ ![ModelOne_Image](Credit_Risk/model_two_report.JPG)
+
