@@ -22,6 +22,8 @@ Once the data was review, I split the data into training and testing datasets by
 
 ### Create a Logistic Regression Model with the Original Data
 Next, I fit a logistic regression model by using the training data (`X-train` and `y_train`). I saved the predictions for the testing data lables by using the testing feature data(`X_test`) and the fitted model.
+
+### Evaluated Model 1's performance
 I then evaluated the model's prefromance by doing the following:
 
  * Calcuated the accuracy score of the model. 
@@ -32,10 +34,16 @@ I then evaluated the model's prefromance by doing the following:
  
  * Generated a confusion matrix which resulted in the following array:
  
- `array ([18679,    67],
+         `array ([18679,    67],
+         
          [80,   558]], dtype=int64)'
  
  * Printed the classification report
  
- ![ModelOne_Image](Credit_Risk/Creditmodel_one_report.JPG)
+ ![ModelOne_Image](Credit_Risk/model_one_report.JPG)
+
+### Predict a Logistic Regression Model with Resampled Training Data
+I imported the RandomOverSampler module from imbalanced-Learn, Instatiated the random oversampler model and fit the original training data to the random_oversampler model. I then ran a counter function to count the distinct values of the resampled labels data. Counter showed that for loan value 0 : 56277 and for loan value 1: 56277. This shows that we have a balanced sample of data. I then used the `LogisticRegression` model and the resampled data to fit the model and make predictions.
+
+### Evaluated Model 2's performance
 
