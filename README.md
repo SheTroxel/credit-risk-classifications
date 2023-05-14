@@ -8,7 +8,7 @@ The instructions for this challenge are divided into the following subsections:
 
   * Predict a Logistic Regression Model with Resampled Training Data
 
-  * Write a Credit Risk Analysis Report: Credit_Risk/report-template.md
+  * Write a Credit Risk Analysis Report: ![report_link](https://github.com/SheTroxel/credit-risk-classifications/blob/main/Credit_Risk/report-template.md)
 
 ### Split the Data into Training and Testing Sets
 To begin the challenge, I read the `lending_data.csv` data from the Resources folder into a Pandas DataFrame.
